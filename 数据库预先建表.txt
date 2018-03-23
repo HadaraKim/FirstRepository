@@ -1,9 +1,9 @@
-Ò»¡¢½øÈëMySQLÏµÍ³
+ï»¿ä¸€ã€è¿›å…¥MySQLç³»ç»Ÿ
 
-1.´´½¨Êı¾İ¿â
+1.åˆ›å»ºæ•°æ®åº“
 create database mydb (default character set 'utf8');
 
-2.´´½¨±í
+2.åˆ›å»ºè¡¨
   create table user(
      stuid   int   auto_increment   primary   key,
      username   varchar(20)   not   null,
