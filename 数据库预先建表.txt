@@ -1,0 +1,13 @@
+一、进入MySQL系统
+
+1.创建数据库
+create database mydb (default character set 'utf8');
+
+2.创建表
+  create table user(
+     stuid   int   auto_increment   primary   key,
+     username   varchar(20)   not   null,
+     password   varchar(20)   not   null,
+     job   varchar(20)   not   null,
+     note   varchar(20)   not   null
+  );
